@@ -1,0 +1,8 @@
+Arguments: Arguments are actual numbers, which defined in while calling the function
+int sum = sumNumbers(num1, num2);
+Here, num1 and num2 are Arguments
+which have the constant value, here num1 and num2 have constant value
+
+Parameters: Parameters are formal Parameters which defined in the definition
+public static int sumNumbers(int a, int b)
+Here, a and b are parameters
