@@ -1,0 +1,11 @@
+Stack -- Ladder -- ek ke upar ek
+
+Stack Memory (used for method execution):
+Each time a method is invoked, a new stack frame is created in the stack memory.
+
+A stack frame contains:-
+Method's local variables.
+References to objects in the heap (if needed).
+A return address (to know where to go back after the method finishes).
+The stack frame is used only for that particular method call.
+When the method execution completes, the stack frame is removed (popped) from the stack, and the memory is freed.
