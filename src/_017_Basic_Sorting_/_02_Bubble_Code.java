@@ -12,6 +12,9 @@ public class _02_Bubble_Code {
                     arr[j+1] = temp;
                     swap++;
                 }
+                // How bubble sort works -
+//                printArr(arr);
+//                System.out.println();
             }
         }
         System.out.println("Total swap = "+swap);
@@ -21,50 +24,17 @@ public class _02_Bubble_Code {
             for(int i=0; i<arr.length; i++){
                 System.out.print(arr[i]+" ");
             }
-                 System.out.println();
         }
 
     public static void main(String[] args) {
         int arr[] = {6,3,7,8,1};
-        printArr(arr);
         bubbleSort(arr);
+        System.out.print("Sorted array : ");
+        printArr(arr);
     }
 }
-
 /*
-Bhari element last me aa jata hai bubble sort ke andar
-har iteration me jo sabse bada element hoga wo last me aayega
-iteration
+Output:
+Total swap = 5
+Sorted array : 1 3 6 7 8
  */
-
-// Below code, we are only using of the one function
-
-//import java.util.Scanner;
-//
-//public class practice {
-//    public static void bubbleSort(int arr[]){
-//        for(int i=0; i<arr.length-1; i++){
-//            for(int j=0; j<arr.length-1-i; j++){
-//                if(arr[j] > arr[j+1]) {
-//                    // swap
-//                    int temp = arr[j];
-//                    arr[j] = arr[j + 1];
-//                    arr[j + 1] = temp;
-//                }
-//            }
-//        }
-//        for(int i=0; i<arr.length; i++){
-//            System.out.print(arr[i]+" ");
-//        }
-////    for (int num : arr) {
-////        System.out.print(num + " ");
-////    }
-//
-//    }
-//
-//    public static void main(String[] args) {
-//        int arr[] = {5,3,6,2,7,1};
-//        bubbleSort(arr);
-//    }
-//}
-
