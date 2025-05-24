@@ -8,7 +8,6 @@ public class _029_Search_Insert_Position_meth2 {
 
         while(start <= end){
             int mid = (start + end) / 2;
-            mid = (start + end) / 2;
             if(arr[mid] == target){
                 return mid;
             }
