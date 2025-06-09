@@ -1,4 +1,4 @@
-package _25_Recursion_Part_I;
+package _025_Recursion_Part_I;
 
 public class _02_PrintNum_IncreasingOrder {
     public static void printInc(int n){
