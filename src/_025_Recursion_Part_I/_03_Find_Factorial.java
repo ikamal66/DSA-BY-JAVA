@@ -1,4 +1,4 @@
-package _25_Recursion_Part_I;
+package _025_Recursion_Part_I;
 // Factorial
 
 // fac(n) = n * fac(n-1)
