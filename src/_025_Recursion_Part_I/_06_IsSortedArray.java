@@ -1,4 +1,4 @@
-package _25_Recursion_Part_I;
+package _025_Recursion_Part_I;
 // Find Array is Sorted or not
 
 // Time & Space Complexity = O(n)
