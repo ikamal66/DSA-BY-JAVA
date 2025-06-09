@@ -1,4 +1,4 @@
-package _25_Recursion_Part_I;
+package _025_Recursion_Part_I;
 // Find the Last Occurrence of an element in an array
 
 public class _08_Last_Occurrence {
