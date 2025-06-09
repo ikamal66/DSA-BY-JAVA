@@ -1,4 +1,4 @@
-package _25_Recursion_Part_I;
+package _025_Recursion_Part_I;
 // calculate the nth term in fibonacci
 // Time Complexity = O(2^n)
 
