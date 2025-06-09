@@ -1,5 +1,5 @@
-package _25_Recursion_Part_I;
-// Optimized way to print X^n
+package _025_Recursion_Part_I;
+// Optimized way to print X^nOptimized way to print X^n
 public class _10_Optimized_Power {
     public static int optimizedPower(int a, int n){
         if(n == 0){
