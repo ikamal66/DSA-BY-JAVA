@@ -1,4 +1,4 @@
-package _25_Recursion_Part_I;
+package _025_Recursion_Part_I;
 // Find the First Occurence of an element in an array
 
 public class _07_First_Occurrence {
